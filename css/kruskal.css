@@ -1,3 +1,8 @@
 section .section_img {
   aspect-ratio: 564/401 !important;
 }
+
+.example_step .container .section_img {
+  background-color: white;
+  aspect-ratio: 441/201 !important;
+}
