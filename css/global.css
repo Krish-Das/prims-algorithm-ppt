@@ -32,10 +32,6 @@ main section {
   scroll-snap-type: y mandatory;
 }
 
-section:nth-of-type(1) .container {
-  background-color: #464649;
-  border: 1px solid rgba(255, 255, 255, 0.247);
-}
 section .container {
   width: 48.44em;
   background-color: #2a2a2c;
@@ -61,6 +57,16 @@ section .container .sub_para {
   opacity: 0.5;
   margin-inline: auto;
   text-align: center;
+}
+
+.example_step .container {
+  background-color: #464649;
+  border: 1px solid rgba(255, 255, 255, 0.247);
+}
+
+.final_step .container {
+  background-color: #464649;
+  border: 1px solid rgba(255, 255, 255, 0.247);
 }
 
 .center_content {
