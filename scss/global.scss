@@ -1,0 +1,95 @@
+:root {
+  --main-grey: #2a2a2c;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-weight: normal;
+  outline: none;
+  border: none;
+}
+
+html,
+body {
+  font-size: 1vw;
+  height: 100vh;
+  font-family: Archivo;
+
+  background-color: #131417;
+}
+
+main {
+  height: 100%;
+  color: white;
+
+  section {
+    width: 100%;
+    height: 100%;
+    margin-inline: auto;
+
+    scroll-snap-type: y mandatory;
+  }
+}
+
+section {
+  .container {
+    width: 48.44em;
+    background-color: #2a2a2c;
+
+    padding: 2em;
+    border-radius: 8px;
+
+    p {
+      font-size: 1.2em;
+      letter-spacing: 0.06ch;
+      // max-width: 50ch;
+      line-height: 1.5;
+      letter-spacing: 0.1ch;
+    }
+
+    .section_img {
+      aspect-ratio: 762/442;
+      width: 100%;
+      background-color: rgb(139, 139, 139);
+
+      margin-top: 2em;
+    }
+
+    .sub_para {
+      font-style: italic;
+      font-size: 1.09em;
+      letter-spacing: 0.06ch;
+      opacity: 0.5;
+      margin-inline: auto;
+      text-align: center;
+    }
+  }
+}
+.center_content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 400px) {
+  html,
+  body {
+    font-size: 12px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  html,
+  body {
+    font-size: 18px;
+  }
+}
+@media only screen and (max-width: 900px) {
+  html,
+  body {
+    font-size: 15px;
+  }
+}
